@@ -1,0 +1,97 @@
+body{
+  background-image: url(https://i.fbcd.co/products/original/63c7ccd9dca1ea819820e1007c536b89ff1356c9ab01cf9542ea67293cd58b4b.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color:#FFE2DE;
+    float: left;
+margin-bottom: 15px;
+
+}
+  
+
+.nav{
+    width: 40%;
+    min-height: 450px;
+    background-color: floralwhite;
+    float: left;
+    box-shadow: rgb(170, 125, 132);
+    text-align: center;
+}
+
+
+
+.artical{
+   width: 50%;
+   min-height: 450px ;
+    background-image: url(https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg);
+    float: left;
+    background-size: cover;
+    border-radius: 10%;
+    margin-left: 55px;
+    box-shadow: 20px 20px 10px rgb(173, 125, 133);
+
+} 
+
+.footer{
+    width: 500px;
+    min-height: 90px;
+    background-color: FloralWhite ;
+    float: right;
+    margin-top: 30px; }
+
+
+    img{
+        border-radius:90%;
+
+    }
+
+    .logo{
+    
+     float: left;
+     max-width: 100%;    }
+
+    .logo :hover{
+        transform:  rotate(360deg);
+        transition: 1s;
+
+    }
+    
+
+    .links{
+    float: right;
+    
+  color: #FFE2DE;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-right: 15px;
+  }
+
+
+  a{
+    text-decoration: none;
+color: rgb(66, 66, 66);
+margin: 5px;
+
+  }
+    .header a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .header a.active {
+        background-color: #F5AFAF;
+        color: white;
+      }
+      
+      .header-right {
+        float: right;
+      }
+      
